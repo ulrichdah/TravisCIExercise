@@ -21,7 +21,7 @@ public class Demo {
       throw new RuntimeException("Unknown type: " + selectedStrat);
     }
 
-    System.out.println("Hello " + order.getNames());
+    System.out.println("Hello " + order.getName());
     System.out.println("The full price of your order was " + order.getPrice());
     System.out.println("Your discount price is " + strategy.applyDiscount(order));
     //System.out.println("Your saved amount is " + (order.getPrice() - strategy.applyDiscount(order));
